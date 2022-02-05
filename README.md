@@ -9,11 +9,12 @@ create a file called credentials.conf
 touch credentials.conf
 ```
 
-add your gmail address and password into credentials.conf from where you want send out your mails in the following structure:
+add your gmail address and password into credentials.conf from where you want send out your mails as well as a receiver email address in the following structure:
 ```conf
 [email_credentails]
 sender_email = <your gmail address>
 password = <your gmail password>
+receiver_email = <receiver email address>
 ```
 
 ## Local SMTP Server
